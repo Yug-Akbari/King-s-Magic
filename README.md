@@ -1,4 +1,4 @@
-# 🛡️ Prayag Anti-Nuke Bot
+# 🛡️ space Anti-Nuke Bot
 
 Advanced Discord server protection system that prevents server nuking attacks with real-time monitoring and progressive punishment.
 
@@ -23,7 +23,7 @@ Advanced Discord server protection system that prevents server nuking attacks wi
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd prayag-anti-nuke-bot
+   cd space-anti-nuke-bot
    ```
 
 2. **Install dependencies**
