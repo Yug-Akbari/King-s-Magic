@@ -1,0 +1,33 @@
+{
+  "name": "prayag-anti-nuke-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord anti-nuke bot with real-time monitoring and progressive punishment system",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "anti-nuke",
+    "security",
+    "protection",
+    "moderation"
+  ],
+  "author": "Prayag",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/prayag-anti-nuke-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/prayag-anti-nuke-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/prayag-anti-nuke-bot#readme"
+}
