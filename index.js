@@ -81,7 +81,7 @@ function createLogEmbed(action, user, guild, reason, color = 0xff0000) {
       { name: '📝 Reason', value: reason, inline: false }
     )
     .setTimestamp()
-    .setFooter({ text: 'space Anti-Nuke System' });
+    .setFooter({ text: 'Space Anti-Nuke System' });
 }
 
 // Enhanced anti-nuke check with multiple punishment levels
@@ -381,7 +381,7 @@ client.on("messageCreate", async (message) => {
           { name: "Monitored Actions", value: "Channel Delete/Create\nRole Delete/Create\nMember Ban/Kick", inline: true }
         )
         .setColor(settings ? 0x00ff00 : 0xff0000)
-        .setFooter({ text: `space Anti-Nuke • Protecting ${client.guilds.cache.size} servers` });
+        .setFooter({ text: `Space Anti-Nuke • Protecting ${client.guilds.cache.size} servers` });
 
       if (settings?.logChannelId) {
         statusEmbed.addFields({ name: "Log Channel", value: `<#${settings.logChannelId}>`, inline: true });
@@ -392,7 +392,7 @@ client.on("messageCreate", async (message) => {
 
     case "help":
       const helpEmbed = new EmbedBuilder()
-        .setTitle("🛡️ space Anti-Nuke Commands")
+        .setTitle("🛡️ Space Anti-Nuke Commands")
         .setDescription("Advanced Discord server protection system")
         .addFields(
           {
